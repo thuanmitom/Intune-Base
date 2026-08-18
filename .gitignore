@@ -1,0 +1,14 @@
+# Diagnostic output (never commit collected logs / secrets)
+*.zip
+*.reg
+MDMDiag*/
+IntuneDiag/
+cases/**/logs/
+dsregcmd-status.txt
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
